@@ -1,4 +1,4 @@
-Function AzimuthRun(A As Double, B As Double, C As Double, D As Double) As Double
+Function Azimuth_Calculation(A As Double, B As Double, C As Double, D As Double) As Double
 X=COS(A)*SIN(C)
 Y=SIN(A)*COS(C)
 Z=COS(D-B)
@@ -7,5 +7,5 @@ DD=SIN(D-B)
 FF=COS(C)
 EE = X - AA 
 BB= DD*FF
-AzimuthRun=ATAN2(EE,BB)
+Azimuth_Calculation=ATAN2(EE,BB)
 End Function
